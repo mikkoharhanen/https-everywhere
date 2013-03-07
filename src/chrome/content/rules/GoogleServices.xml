@@ -93,7 +93,7 @@
 	<rule from="^http://(?:www\.)?google((?:\.com?)?(?:\.[^/@:][^/@:])?)/(accounts|adplanner|ads|css|images|intl|js|logos|tools|googleblogs|s2|support|transparencyreport)/"
 		 to="https://www.google$1/$2/" />
 
-	<rule from="^http://(?:www\.)?google(?:\.com?)?(?:\.[^/@:][^/@:])?/(calendar|coop|dictionary|trends|url)"
+	<rule from="^http://(?:www\.)?google(?:\.com?)?(?:\.[^/@:][^/@:])?/(calendar|coop|dictionary|trends)"
 		 to="https://www.google.com/$1" />
 
 	<rule from="^http://(?:www\.)?google(?:\.com?)?(?:\.[^/@:][^/@:])?/(?:cse|custom)"
